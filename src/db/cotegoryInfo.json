@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "path": "/",
+        "title": "차트"
+    },
+    {
+        "id": 2,
+        "path": "/whook",
+        "title": "Whook"
+    },
+    {
+        "id": 3,
+        "path": "/event",
+        "title": "이벤트"
+    },
+    {
+        "id": 4,
+        "path": "/news",
+        "title": "뉴스"
+    },
+    {
+        "id": 5,
+        "path": "/store",
+        "title": "스토어"
+    },
+    {
+        "id": 6,
+        "path": "/charge",
+        "title": "충전소"
+    }
+]
