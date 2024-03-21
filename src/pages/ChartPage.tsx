@@ -1,5 +1,7 @@
+import ChartWrap from "../components/section/chart/ChartWrap";
+
 const ChartPage = () => {
-    return <div>chart</div>;
+    return <ChartWrap />;
 };
 
 export default ChartPage;
