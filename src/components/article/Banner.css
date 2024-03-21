@@ -21,6 +21,13 @@
     overflow: hidden;
     text-overflow: ellipsis;
     font-family: var(--font-nanum-bold);
+    cursor: default;
+}
+
+.bannerTextInfo .bannerText > p:hover {
+    white-space: wrap;
+    overflow: visible;
+    text-overflow: ellipsis;
 }
 
 .bannerTextInfo > p {
@@ -35,4 +42,10 @@
     position: absolute;
     top: 7px;
     right: 7px;
+    transition: 0.25s;
+}
+
+.bannerBtn:hover {
+    background-color: var(--color-light);
+    color: white;
 }
