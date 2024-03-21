@@ -9,3 +9,9 @@ type BannerInfo = {
     period: string;
     category: string;
 };
+
+type CategoryInfo = {
+    id: number;
+    path: string;
+    title: string;
+};
