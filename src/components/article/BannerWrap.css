@@ -1,0 +1,10 @@
+.bannerWrap {
+    height: 160px;
+    display: flex;
+    align-items: center;
+    margin-left: 18px;
+}
+
+.slider {
+    display: flex;
+}

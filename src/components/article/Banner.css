@@ -1,0 +1,38 @@
+.bannerImage {
+    width: 100%;
+    height: 70%;
+    display: inline-block;
+}
+
+.bannerTextInfo {
+    height: 30%;
+    position: relative;
+}
+
+.bannerTextInfo .bannerText {
+    padding: 7px 0 0 7px;
+    font-size: 0.9rem;
+}
+
+.bannerTextInfo .bannerText > p {
+    width: 250px;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: var(--font-nanum-bold);
+}
+
+.bannerTextInfo > p {
+    position: absolute;
+    bottom: 12px;
+    right: 10px;
+    font-family: var(--font-nanum);
+    font-size: 0.65rem;
+}
+
+.bannerBtn {
+    position: absolute;
+    top: 7px;
+    right: 7px;
+}
