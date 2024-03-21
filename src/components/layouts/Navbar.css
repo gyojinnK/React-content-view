@@ -1,22 +1,37 @@
-ul {
+.navbarWrap {
     list-style: none;
     width: fit-content;
-    margin: 20px 0 0 0;
+    margin: 20px 0 5px 0;
     display: flex;
     align-items: center;
     height: 50px;
+    position: relative;
 }
 
-li {
+.navbarWrap > li {
     font-size: 1.25rem;
-    width: 90px;
+    width: 80px;
     text-align: center;
     display: inline-block;
 }
 
 .nlink {
     text-decoration: none;
-    font-family: var(--font-nanum-extrabold);
+    font-family: var(--font-nanum-bold);
     font-size: 1rem;
+    color: #cfcfcf;
+}
+
+.nlink.active {
     color: black;
+}
+
+.slidingBar {
+    height: 2px;
+    width: 50px;
+    border-radius: 10px;
+    background-color: black;
+    position: absolute;
+    bottom: 8px;
+    transition: 0.25s;
 }
