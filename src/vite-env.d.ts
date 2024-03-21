@@ -15,3 +15,11 @@ type CategoryInfo = {
     path: string;
     title: string;
 };
+
+type ArtistInfo = {
+    id: number;
+    artistImg: string;
+    artist: string;
+    agency: string;
+    views: number;
+};
