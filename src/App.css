@@ -1,13 +1,13 @@
 .mainWrap {
     width: 425px;
     height: 100vh;
-    background-color: white;
+    background-color: #ffffff;
     margin: 0 auto;
     box-shadow: rgba(0, 0, 0, 0.3) 0 5px 20px 5px;
     position: relative;
 }
 
-.mainWrap img {
+.mainWrap > img {
     width: 100%;
     position: absolute;
     top: 0;
