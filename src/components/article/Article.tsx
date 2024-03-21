@@ -1,7 +1,7 @@
 import "./Article.css";
 
 const Article = () => {
-    return <div></div>;
+    return <div className="articleWrap">dk</div>;
 };
 
 export default Article;

@@ -5,13 +5,11 @@ import EventPage from "../pages/EventPage";
 import NewsPage from "../pages/NewsPage";
 import StorePage from "../pages/StorePage";
 import App from "../App";
-import Header from "../components/layouts/Header";
 
 const Router = () => {
     return (
         <BrowserRouter>
             <App />
-            <Header />
             <Routes>
                 <Route path="/" element={<ChartPage />} />
                 <Route path="/whook" element={<WhookPage />} />
