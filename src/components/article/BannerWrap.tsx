@@ -1,8 +1,8 @@
-// BannerWrap.tsx
 import { useState, useEffect, useRef } from "react";
 import "./BannerWrap.css";
 import bannerInfos from "../../db/bannerInfo.json";
 import Banner from "./Banner";
+import BannerIndex from "./BannerIndex";
 
 const BannerWrap = () => {
     const [currentIndex, setCurrentIndex] = useState<number>(0);
@@ -43,6 +43,10 @@ const BannerWrap = () => {
                     />
                 ))}
             </div>
+            <BannerIndex
+                currentIndex={currentIndex}
+                onSetCurrentIndex={setCurrentIndex}
+            />
         </div>
     );
 };
