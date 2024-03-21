@@ -9,15 +9,16 @@ import App from "../App";
 const Router = () => {
     return (
         <BrowserRouter>
-            <App />
-            <Routes>
-                <Route path="/" element={<ChartPage />} />
-                <Route path="/whook" element={<WhookPage />} />
-                <Route path="/event" element={<EventPage />} />
-                <Route path="/news" element={<NewsPage />} />
-                <Route path="/store" element={<StorePage />} />
-                <Route path="/charge" element={<ChartPage />} />
-            </Routes>
+            <App>
+                <Routes>
+                    <Route path="/" element={<ChartPage />} />
+                    <Route path="/whook" element={<WhookPage />} />
+                    <Route path="/event" element={<EventPage />} />
+                    <Route path="/news" element={<NewsPage />} />
+                    <Route path="/store" element={<StorePage />} />
+                    <Route path="/charge" element={<ChartPage />} />
+                </Routes>
+            </App>
         </BrowserRouter>
     );
 };

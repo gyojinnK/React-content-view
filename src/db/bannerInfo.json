@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "imagePath": "src/assets/images/bannerImg/iLand.png",
+        "title": "[I-LAND2]",
+        "description": "지원자 24인 프로필 공개",
+        "externalURL": "https://www.mnetplus.world/ko/poc/iland2",
+        "category": "normal",
+        "period": "2024.03.22 11:00 (KST)"
+    },
+    {
+        "id": 2,
+        "imagePath": "src/assets/images/bannerImg/kcon.png",
+        "title": "[KCON JAPAN 2024]",
+        "description": "KCON EXPRESS 상세 정보",
+        "externalURL": "https://pluspass.mnetplus.world/conventions/kconjp2024/products",
+        "category": "normal",
+        "period": "2024.03.18 12:00 ~ 2024.03.24 23:59 (JST)"
+    },
+    {
+        "id": 3,
+        "imagePath": "src/assets/images/bannerImg/mpsp.png",
+        "title": "[KCON HONG KONG 2024]",
+        "description": "Mnet Plus Special Package 상세 정보",
+        "externalURL": "https://pluspass.mnetplus.world/conventions/kconhk2024/products",
+        "category": "normal",
+        "period": "2024.02.21 10:00 (HKT)"
+    }
+]

@@ -9,8 +9,8 @@
 
 :root {
     --font-nanum: "nanum";
-    --font-nanum-blod: "nanum-bold";
-    --font-nanum-extrablod: "nanum-extrabold";
+    --font-nanum-bold: "nanum-bold";
+    --font-nanum-extrabold: "nanum-extrabold";
     --color-main: rgb(158, 100, 180);
     --color-light: rgb(255, 97, 210);
 }
