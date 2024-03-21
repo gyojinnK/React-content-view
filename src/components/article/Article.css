@@ -1,5 +1,7 @@
 .articleWrap {
     width: 100%;
-    height: 200px;
-    background-color: aqua;
+    height: 230px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
 }
