@@ -1,39 +1,36 @@
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
+import categorys from "../../db/cotegoryInfo.json";
+import { useEffect, useRef, useState } from "react";
 
 const Navbar = () => {
+    const [currentCategory, setCurrentCategory] = useState<number>(0);
+    const slideRef = useRef<HTMLDivElement>(null);
+
+    useEffect(() => {
+        if (slideRef.current) {
+            slideRef.current.style.left = `${currentCategory * 80 + 15}px`;
+        }
+    }, [currentCategory]);
+
     return (
-        <ul>
-            <li>
-                <NavLink className="nlink" to="/">
-                    차트
-                </NavLink>
-            </li>
-            <li>
-                <NavLink className="nlink" to="/whook">
-                    Whook
-                </NavLink>
-            </li>
-            <li>
-                <NavLink className="nlink" to="/event">
-                    이벤트
-                </NavLink>
-            </li>
-            <li>
-                <NavLink className="nlink" to="/news">
-                    뉴스
-                </NavLink>
-            </li>
-            <li>
-                <NavLink className="nlink" to="/store">
-                    스토어
-                </NavLink>
-            </li>
-            <li>
-                <NavLink className="nlink" to="/charge">
-                    충전소
-                </NavLink>
-            </li>
+        <ul className="navbarWrap">
+            {categorys.map((category: CategoryInfo, index: number) => (
+                <li className="liNav">
+                    <NavLink
+                        className={({ isActive }) =>
+                            isActive ? "nlink active" : "nlink"
+                        }
+                        to={category.path}
+                        onClick={() => {
+                            setCurrentCategory(index);
+                        }}
+                    >
+                        {category.title}
+                    </NavLink>
+                </li>
+            ))}
+            <div className="slidingBar" ref={slideRef}></div>
         </ul>
     );
 };
