@@ -2,41 +2,41 @@
     position: relative;
 }
 
-.artistImg {
+.contentImg {
     width: 50px;
     height: 50px;
     margin: 5px;
     border-radius: 10px;
 }
-.artistDescription {
+.contentDescription {
     width: 100%;
     display: inline-block;
     display: flex;
     align-items: center;
 }
 
-.artistDescription p,
+.contentDescription p,
 .views {
     font-family: var(--font-nanum-bold);
 }
 
-.artistDescription > p {
+.contentDescription > p {
     width: 40px;
     text-align: center;
     font-size: 1rem;
 }
 
-.artistDescription .artistDomain {
+.contentDescription .contentDomain {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
 
-.artistDescription .artistDomain p {
+.contentDescription .contentDomain p {
     padding: 3px 0;
 }
 
-.artistDescription .artistDomain p:nth-of-type(2),
+.contentDescription .contentDomain p:nth-of-type(2),
 .views {
     color: #9f9f9f;
     font-size: 0.8rem;
