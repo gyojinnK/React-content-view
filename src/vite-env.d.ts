@@ -16,6 +16,19 @@ type CategoryInfo = {
     title: string;
 };
 
+type ListFrameProps = {
+    mockData: any[];
+    categoryTitle: string;
+};
+
+type CardInfo = {
+    id: number;
+    contentImg: string;
+    contentTitle: string;
+    contentDescription: string;
+    views: number;
+};
+
 type ArtistInfo = {
     id: number;
     artistImg: string;
