@@ -16,7 +16,7 @@ const Navbar = () => {
     return (
         <ul className="navbarWrap">
             {categorys.map((category: CategoryInfo, index: number) => (
-                <li className="liNav">
+                <li className="liNav" key={category.id}>
                     <NavLink
                         className={({ isActive }) =>
                             isActive ? "nlink active" : "nlink"
