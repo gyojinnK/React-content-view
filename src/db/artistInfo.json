@@ -166,5 +166,173 @@
         "artist": "STRAY KIDS",
         "agency": "JYP",
         "views": 1216
+    },
+    {
+        "id": 25,
+        "artistImg": "src/assets/images/artistImg/chart1.jpg",
+        "artist": "TEMPEST",
+        "agency": "위에화",
+        "views": 11114
+    },
+    {
+        "id": 26,
+        "artistImg": "src/assets/images/artistImg/chart2.jpg",
+        "artist": "WENDY",
+        "agency": "SM",
+        "views": 8661
+    },
+    {
+        "id": 27,
+        "artistImg": "src/assets/images/artistImg/chart3.jpg",
+        "artist": "xikers",
+        "agency": "KQ",
+        "views": 8153
+    },
+    {
+        "id": 28,
+        "artistImg": "src/assets/images/artistImg/chart4.jpg",
+        "artist": "LE SSERAFIM",
+        "agency": "쏘스 뮤직",
+        "views": 6731
+    },
+    {
+        "id": 29,
+        "artistImg": "src/assets/images/artistImg/chart5.jpg",
+        "artist": "PLAVE",
+        "agency": "블래스트",
+        "views": 6731
+    },
+    {
+        "id": 30,
+        "artistImg": "src/assets/images/artistImg/chart6.jpg",
+        "artist": "(G)I-DLE",
+        "agency": "큐브",
+        "views": 6035
+    },
+    {
+        "id": 31,
+        "artistImg": "src/assets/images/artistImg/chart7.jpg",
+        "artist": "HIGHLIGHT",
+        "agency": "어라운드어스",
+        "views": 5728
+    },
+    {
+        "id": 32,
+        "artistImg": "src/assets/images/artistImg/chart8.jpg",
+        "artist": "LUN8",
+        "agency": "판타지오",
+        "views": 4405
+    },
+    {
+        "id": 33,
+        "artistImg": "src/assets/images/artistImg/chart9.jpg",
+        "artist": "Lim Young-Woong",
+        "agency": "물고기뮤직",
+        "views": 3581
+    },
+    {
+        "id": 34,
+        "artistImg": "src/assets/images/artistImg/chart10.jpg",
+        "artist": "CRAVITY",
+        "agency": "스타쉽",
+        "views": 3223
+    },
+    {
+        "id": 35,
+        "artistImg": "src/assets/images/artistImg/chart11.jpg",
+        "artist": "IVE",
+        "agency": "스타쉽",
+        "views": 3153
+    },
+    {
+        "id": 36,
+        "artistImg": "src/assets/images/artistImg/chart12.jpg",
+        "artist": "BAE173",
+        "agency": "포켓돌 스튜디오",
+        "views": 2746
+    },
+    {
+        "id": 37,
+        "artistImg": "src/assets/images/artistImg/chart1.jpg",
+        "artist": "TWICE",
+        "agency": "JYP",
+        "views": 2575
+    },
+    {
+        "id": 38,
+        "artistImg": "src/assets/images/artistImg/chart2.jpg",
+        "artist": "TAEYONG",
+        "agency": "SM",
+        "views": 2532
+    },
+    {
+        "id": 39,
+        "artistImg": "src/assets/images/artistImg/chart3.jpg",
+        "artist": "TAEYEON",
+        "agency": "SM",
+        "views": 2497
+    },
+    {
+        "id": 40,
+        "artistImg": "src/assets/images/artistImg/chart4.jpg",
+        "artist": "TWS",
+        "agency": "플레디스",
+        "views": 2315
+    },
+    {
+        "id": 41,
+        "artistImg": "src/assets/images/artistImg/chart5.jpg",
+        "artist": "IU",
+        "agency": "아담",
+        "views": 2098
+    },
+    {
+        "id": 42,
+        "artistImg": "src/assets/images/artistImg/chart6.jpg",
+        "artist": "SEVENTEEN",
+        "agency": "플레디스",
+        "views": 1835
+    },
+    {
+        "id": 43,
+        "artistImg": "src/assets/images/artistImg/chart7.jpg",
+        "artist": "NEWJEANS",
+        "agency": "ADOR",
+        "views": 1811
+    },
+    {
+        "id": 44,
+        "artistImg": "src/assets/images/artistImg/chart8.jpg",
+        "artist": "NCTWISH",
+        "agency": "SM",
+        "views": 1655
+    },
+    {
+        "id": 45,
+        "artistImg": "src/assets/images/artistImg/chart9.jpg",
+        "artist": "RED VELVET",
+        "agency": "SM",
+        "views": 1478
+    },
+    {
+        "id": 46,
+        "artistImg": "src/assets/images/artistImg/chart10.jpg",
+        "artist": "ENHYPEN",
+        "agency": "빌리프랩",
+        "views": 1426
+    },
+    {
+        "id": 47,
+        "artistImg": "src/assets/images/artistImg/chart11.jpg",
+        "artist": "aespa",
+        "agency": "SM",
+        "views": 1368
+    },
+    {
+        "id": 48,
+        "artistImg": "src/assets/images/artistImg/chart12.jpg",
+        "artist": "STRAY KIDS",
+        "agency": "JYP",
+        "views": 1216
     }
 ]

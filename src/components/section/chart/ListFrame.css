@@ -1,0 +1,38 @@
+.contentTitle {
+    width: 90%;
+    margin: 0 auto 10px;
+    font-family: var(--font-nanum-bold);
+}
+
+.line {
+    height: 3px;
+    width: 92%;
+    margin: 0 auto;
+    background-color: #dedede;
+    box-shadow: #eaeaea 0 2px 2px 1px;
+    border-radius: 50%;
+}
+
+.contentWrap {
+    width: 100%;
+    height: 59.25vh;
+    overflow: scroll;
+}
+
+.upInter {
+    text-align: center;
+}
+
+.upInter > p {
+    display: inline-block;
+    text-align: center;
+    font-size: 0.85rem;
+    cursor: pointer;
+    color: #acacac;
+    margin: 20px auto;
+    font-family: var(--font-nanum-bold);
+}
+
+.upInter > p:hover {
+    color: rgb(4, 4, 4);
+}

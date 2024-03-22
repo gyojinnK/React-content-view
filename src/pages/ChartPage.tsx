@@ -1,7 +1,8 @@
-import ChartWrap from "../components/section/chart/ChartWrap";
+import ListFrame from "../components/section/chart/ListFrame";
+import artistDatas from "../db/artistInfo.json";
 
 const ChartPage = () => {
-    return <ChartWrap />;
+    return <ListFrame mockData={artistDatas} categoryTitle="ARTIST" />;
 };
 
 export default ChartPage;

@@ -1,25 +1,25 @@
 import Box from "../ui/Box";
 import "./Card.css";
 
-const Card: React.FC<ArtistInfo> = ({
+const Card: React.FC<CardInfo> = ({
     id,
-    artistImg,
-    artist,
-    agency,
+    contentImg,
+    contentTitle,
+    contentDescription,
     views,
 }) => {
     return (
         <Box className="CardWrap" width="90%" height="64px" margin="10px auto">
             <img
-                className="artistImg"
-                src={artistImg}
-                alt={`${artist} image`}
+                className="contentImg"
+                src={contentImg}
+                alt={`${contentTitle} image`}
             />
-            <div className="artistDescription">
+            <div className="contentDescription">
                 <p>{id}</p>
-                <div className="artistDomain">
-                    <p>{artist}</p>
-                    <p>{agency}</p>
+                <div className="contentDomain">
+                    <p>{contentTitle}</p>
+                    <p>{contentDescription}</p>
                 </div>
             </div>
             <p className="views">{views}</p>
