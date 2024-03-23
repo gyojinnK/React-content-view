@@ -3,6 +3,8 @@ import userIcon from "../../assets/images/icons/user.svg";
 import ChartSt from "./styles/Chart.module.css";
 import NewsSt from "./styles/News.module.css";
 import WhookSt from "./styles/Whook.module.css";
+import StoreSt from "./styles/Store.module.css";
+import Button from "../ui/Button";
 
 const Card: React.FC<CardInfo> = ({
     id,
@@ -12,6 +14,7 @@ const Card: React.FC<CardInfo> = ({
     views,
     url,
     userCnt,
+    cost,
     categoryTitle,
 }) => {
     const toExternalUrlHandler = () => {
@@ -32,6 +35,10 @@ const Card: React.FC<CardInfo> = ({
         case "WHOOK":
             css = WhookSt;
             boxStyle = { height: "64px" };
+            break;
+        case "STORE":
+            css = StoreSt;
+            boxStyle = { height: "180px", flexdirection: "column" };
             break;
         default:
             css = ChartSt;
@@ -76,6 +83,25 @@ const Card: React.FC<CardInfo> = ({
                     views
                 )}
             </div>
+            {categoryTitle === "STORE" ? (
+                <>
+                    <Button
+                        className={css.storeBtn}
+                        width="65px"
+                        height="20px"
+                        fontsize="0.65rem"
+                        fontfam="var(--font-nanum-bold)"
+                        color="#919191"
+                        bodercolor="#919191"
+                        onClick={toExternalUrlHandler}
+                    >
+                        상세보기
+                    </Button>
+                    <div className={css.costWrap}>
+                        <p>₩ {cost}</p>
+                    </div>
+                </>
+            ) : null}
         </Box>
     );
 };

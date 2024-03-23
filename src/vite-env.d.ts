@@ -55,3 +55,12 @@ type WhookInfo = {
     hookCurrentChating: string;
     userCnt: string;
 };
+
+type ItemInfo = {
+    id: number;
+    itemImg: string;
+    itemTitle: string;
+    itemDescription: string;
+    itemCost: string;
+    storeUrl: string;
+};

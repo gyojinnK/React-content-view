@@ -22,19 +22,26 @@ const ListFrame: React.FC<ListFrameProps> = ({ mockData, categoryTitle }) => {
                 data.artistImg ||
                 data.newsImg ||
                 data.hookImg ||
-                data.imagePath,
+                data.imagePath ||
+                data.itemImg,
             title:
-                data.artist || data.newsHeader || data.hookTitle || data.title,
+                data.artist ||
+                data.newsHeader ||
+                data.hookTitle ||
+                data.title ||
+                data.itemTitle,
             description:
                 data.agency ||
                 data.newsDescription ||
                 data.hookCurrentChating ||
-                data.description,
+                data.description ||
+                data.itemDescription,
             views: data.views,
-            url: data.url,
+            url: data.url || data.storeUrl,
             userCnt: data.userCnt,
             externalURL: data.externalURL,
             period: data.period,
+            itemCost: data.itemCost,
             category: data.category,
         }));
     };
@@ -89,6 +96,7 @@ const ListFrame: React.FC<ListFrameProps> = ({ mockData, categoryTitle }) => {
                                       userCnt={info.userCnt}
                                       externalURL={info.externalURL}
                                       period={info.period}
+                                      cost={info.itemCost}
                                       categoryTitle={categoryTitle}
                                   />
                               ))}
@@ -99,6 +107,7 @@ const ListFrame: React.FC<ListFrameProps> = ({ mockData, categoryTitle }) => {
                           <React.Fragment key={index}>
                               {pageData.map((info: CardInfo) => (
                                   <Banner
+                                      key={info.id}
                                       id={info.id}
                                       imagePath={info.image}
                                       description={info.description}

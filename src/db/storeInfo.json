@@ -1,0 +1,130 @@
+[
+    {
+        "id": 1,
+        "itemImg": "src/assets/images/storeImg/store1.jpg",
+        "itemTitle": "Test Group 굿즈 아이템",
+        "itemDescription": "응원봉 - Test Group1",
+        "itemCost": "25000",
+        "storeUrl": "https://www.example.com/"
+    },
+    {
+        "id": 2,
+        "itemImg": "src/assets/images/storeImg/store2.jpg",
+        "itemTitle": "Test solo 굿즈 아이템",
+        "itemDescription": "머그컵 - Test solo1",
+        "itemCost": "30000",
+        "storeUrl": "https://www.example.com/"
+    },
+    {
+        "id": 3,
+        "itemImg": "src/assets/images/storeImg/store3.jpg",
+        "itemTitle": "Test solo 굿즈 아이템",
+        "itemDescription": "후드티 - Test solo2",
+        "itemCost": "32000",
+        "storeUrl": "https://www.example.com/"
+    },
+    {
+        "id": 4,
+        "itemImg": "src/assets/images/storeImg/store4.jpg",
+        "itemTitle": "Test Group 굿즈 아이템",
+        "itemDescription": "키링 - Test Group2",
+        "itemCost": "20000",
+        "storeUrl": "https://www.example.com/"
+    },
+    {
+        "id": 5,
+        "itemImg": "src/assets/images/storeImg/store1.jpg",
+        "itemTitle": "Test Group 굿즈 아이템",
+        "itemDescription": "응원봉 - Test Group1",
+        "itemCost": "35000",
+        "storeUrl": "https://www.example.com/"
+    },
+    {
+        "id": 6,
+        "itemImg": "src/assets/images/storeImg/store2.jpg",
+        "itemTitle": "Test solo 굿즈 아이템",
+        "itemDescription": "머그컵 - Test solo1",
+        "itemCost": "25000",
+        "storeUrl": "https://www.example.com/"
+    },
+    {
+        "id": 7,
+        "itemImg": "src/assets/images/storeImg/store3.jpg",
+        "itemTitle": "Test solo 굿즈 아이템",
+        "itemDescription": "후드티 - Test solo2",
+        "itemCost": "45000",
+        "storeUrl": "https://www.example.com/"
+    },
+    {
+        "id": 8,
+        "itemImg": "src/assets/images/storeImg/store4.jpg",
+        "itemTitle": "Test Group 굿즈 아이템",
+        "itemDescription": "키링 - Test Group2",
+        "itemCost": "25000",
+        "storeUrl": "https://www.example.com/"
+    },
+    {
+        "id": 9,
+        "itemImg": "src/assets/images/storeImg/store1.jpg",
+        "itemTitle": "Test Group 굿즈 아이템",
+        "itemDescription": "응원봉 - Test Group1",
+        "itemCost": "15000",
+        "storeUrl": "https://www.example.com/"
+    },
+    {
+        "id": 10,
+        "itemImg": "src/assets/images/storeImg/store2.jpg",
+        "itemTitle": "Test solo 굿즈 아이템",
+        "itemDescription": "머그컵 - Test solo1",
+        "itemCost": "25000",
+        "storeUrl": "https://www.example.com/"
+    },
+    {
+        "id": 11,
+        "itemImg": "src/assets/images/storeImg/store3.jpg",
+        "itemTitle": "Test solo 굿즈 아이템",
+        "itemDescription": "후드티 - Test solo2",
+        "itemCost": "65000",
+        "storeUrl": "https://www.example.com/"
+    },
+    {
+        "id": 12,
+        "itemImg": "src/assets/images/storeImg/store4.jpg",
+        "itemTitle": "Test Group 굿즈 아이템",
+        "itemDescription": "키링 - Test Group2",
+        "itemCost": "25000",
+        "storeUrl": "https://www.example.com/"
+    },
+    {
+        "id": 13,
+        "itemImg": "src/assets/images/storeImg/store1.jpg",
+        "itemTitle": "Test Group 굿즈 아이템",
+        "itemDescription": "응원봉 - Test Group1",
+        "itemCost": "13000",
+        "storeUrl": "https://www.example.com/"
+    },
+    {
+        "id": 14,
+        "itemImg": "src/assets/images/storeImg/store2.jpg",
+        "itemTitle": "Test solo 굿즈 아이템",
+        "itemDescription": "머그컵 - Test solo1",
+        "itemCost": "45000",
+        "storeUrl": "https://www.example.com/"
+    },
+    {
+        "id": 15,
+        "itemImg": "src/assets/images/storeImg/store3.jpg",
+        "itemTitle": "Test solo 굿즈 아이템",
+        "itemDescription": "후드티 - Test solo2",
+        "itemCost": "21000",
+        "storeUrl": "https://www.example.com/"
+    },
+    {
+        "id": 16,
+        "itemImg": "src/assets/images/storeImg/store4.jpg",
+        "itemTitle": "Test Group 굿즈 아이템",
+        "itemDescription": "키링 - Test Group2",
+        "itemCost": "8000",
+        "storeUrl": "https://www.example.com/"
+    }
+]
