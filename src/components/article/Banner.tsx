@@ -20,7 +20,7 @@ const Banner: React.FC<BannerInfo> = ({
             width="380px"
             height="190px"
             margin={marginOption}
-            flexDirection="column"
+            flexdirection="column"
         >
             <div
                 className="bannerImage"
@@ -43,8 +43,8 @@ const Banner: React.FC<BannerInfo> = ({
                     onClick={requestExternalUrlHandler}
                     width="65px"
                     height="20px"
-                    fontSize="0.65rem"
-                    fontFam="var(--font-nanum-bold)"
+                    fontsize="0.65rem"
+                    fontfam="var(--font-nanum-bold)"
                 >
                     {category === "vote" ? "투표하기" : "확인하기"}
                 </Button>

@@ -5,10 +5,10 @@ type BottonProps = {
     padding?: string;
     width?: string;
     height?: string;
-    boderColor?: string;
+    bodercolor?: string;
     color?: string;
-    fontFam?: string;
-    fontSize?: string;
+    fontfam?: string;
+    fontsize?: string;
 };
 
 const Button = styled.button<BottonProps>`
@@ -22,9 +22,9 @@ const Button = styled.button<BottonProps>`
     width: ${({ width }) => width || "auto"};
     height: ${({ height }) => height || "auto"};
     color: ${({ color }) => color || "rgb(255, 97, 210)"};
-    border-color: ${({ boderColor }) => boderColor || "rgb(255, 97, 210)"};
-    font-size: ${({ fontSize }) => fontSize || "auto"};
-    font-family: ${({ fontFam }) => fontFam || "var(--font-nanum)"};
+    border-color: ${({ bodercolor }) => bodercolor || "rgb(255, 97, 210)"};
+    font-size: ${({ fontsize }) => fontsize || "auto"};
+    font-family: ${({ fontfam }) => fontfam || "var(--font-nanum)"};
 `;
 
 export default Button;
