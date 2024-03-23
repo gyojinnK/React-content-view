@@ -1,9 +1,10 @@
 import Box from "../ui/Box";
 import userIcon from "../../assets/images/icons/user.svg";
-import ChartSt from "./styles/Chart.module.css";
-import NewsSt from "./styles/News.module.css";
-import WhookSt from "./styles/Whook.module.css";
-import StoreSt from "./styles/Store.module.css";
+import ChartSt from "./cardStyles/Chart.module.css";
+import NewsSt from "./cardStyles/News.module.css";
+import WhookSt from "./cardStyles/Whook.module.css";
+import StoreSt from "./cardStyles/Store.module.css";
+import UsageSt from "./cardStyles/Usage.module.css";
 import Button from "../ui/Button";
 
 const Card: React.FC<CardInfo> = ({
@@ -16,6 +17,7 @@ const Card: React.FC<CardInfo> = ({
     userCnt,
     cost,
     categoryTitle,
+    usageDate,
 }) => {
     const toExternalUrlHandler = () => {
         window.open(url);
@@ -40,6 +42,10 @@ const Card: React.FC<CardInfo> = ({
             css = StoreSt;
             boxStyle = { height: "180px", flexdirection: "column" };
             break;
+        case "USAGE":
+            css = UsageSt;
+            boxStyle = { height: "64px" };
+            break;
         default:
             css = ChartSt;
             boxStyle = { height: "64px" };
@@ -48,19 +54,24 @@ const Card: React.FC<CardInfo> = ({
     return (
         <Box
             className={css.cardWrap}
-            width="90%"
             margin="10px auto"
+            // width="90%"
+            {...(categoryTitle === "USAGE"
+                ? { width: "99%" }
+                : { width: "90%" })}
             {...(boxStyle || { height: "64px" })}
         >
             <div className={css.imgWrap}>
                 {categoryTitle === "NEWS" ? (
                     <div className={css.blackBoard}></div>
                 ) : null}
-                <img
-                    className={css.contentImg}
-                    src={image}
-                    alt={`${title} image`}
-                />
+                {categoryTitle === "USAGE" ? null : (
+                    <img
+                        className={css.contentImg}
+                        src={image}
+                        alt={`${title} image`}
+                    />
+                )}
             </div>
             <div className={css.contentDescription}>
                 {categoryTitle === "ARTIST" ? <p>{id}</p> : null}
@@ -79,6 +90,8 @@ const Card: React.FC<CardInfo> = ({
                         <img src={userIcon} alt="User Icon" />
                         {userCnt}
                     </>
+                ) : categoryTitle === "USAGE" ? (
+                    usageDate
                 ) : (
                     views
                 )}
