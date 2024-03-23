@@ -43,7 +43,7 @@ const Banner: React.FC<BannerInfo> = ({
                     onClick={requestExternalUrlHandler}
                     width="65px"
                     height="20px"
-                    fontsize="0.65rem"
+                    fontSize="0.65rem"
                     fontfam="var(--font-nanum-bold)"
                 >
                     {category === "vote" ? "투표하기" : "확인하기"}

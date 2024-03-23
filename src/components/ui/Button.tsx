@@ -8,7 +8,7 @@ type BottonProps = {
     bodercolor?: string;
     color?: string;
     fontfam?: string;
-    fontsize?: string;
+    fontSize?: string;
 };
 
 const Button = styled.button<BottonProps>`
@@ -23,7 +23,7 @@ const Button = styled.button<BottonProps>`
     height: ${({ height }) => height || "auto"};
     color: ${({ color }) => color || "rgb(255, 97, 210)"};
     border-color: ${({ bodercolor }) => bodercolor || "rgb(255, 97, 210)"};
-    font-size: ${({ fontsize }) => fontsize || "auto"};
+    font-size: ${({ fontSize }) => fontSize || "auto"};
     font-family: ${({ fontfam }) => fontfam || "var(--font-nanum)"};
 `;
 
