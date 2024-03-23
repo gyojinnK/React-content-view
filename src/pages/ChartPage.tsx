@@ -1,4 +1,4 @@
-import ListFrame from "../components/section/chart/ListFrame";
+import ListFrame from "../components/section/ListFrame";
 import artistDatas from "../db/artistInfo.json";
 
 const ChartPage = () => {

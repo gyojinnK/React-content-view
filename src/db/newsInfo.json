@@ -1,0 +1,170 @@
+[
+    {
+        "id": 1,
+        "newsImg": "src/assets/images/newsImg/news1.jpg",
+        "newsHeader": "n.SSign (엔싸인), 미니 2집 'Happy &'로 한터차트 실버 인증패 수상! (한터차트 공식)",
+        "newsDescription": "보이그룹 n.SSign (엔싸인)이 한터차트 실버 인증패를 수상했다.",
+        "url": "https://www.hanteonews.com/ko/article/issue?fc=61652"
+    },
+    {
+        "id": 2,
+        "newsImg": "src/assets/images/newsImg/news2.png",
+        "newsHeader": "사흘 앞으로 다가온 '31주년 한터뮤직어워즈 20231'...깜짝 합류 스타 나올까?",
+        "newsDescription": "'31주년 한터뮤직어워즈 2023'이 사흘 앞으로 다가오면서 본상 수상자가 누가 될 것인지에 관심이 높아지고 있다.",
+        "url": "https://www.hanteonews.com/ko/article/issue?fc=60850"
+    },
+    {
+        "id": 3,
+        "newsImg": "src/assets/images/newsImg/news3.png",
+        "newsHeader": "'한터뮤직어워즈 2023' 3차 라인업 발표...YB.케플러.빌리 등 합류",
+        "newsDescription": "'31주년 한터무직어워즈 2023'이 3차 라인업을 발표했다. 주최사 한터글로벌(대표 곽영호)은 YB, 케플러, 빌리",
+        "url": "https://www.hanteonews.com/ko/article/issue?fc=60712"
+    },
+    {
+        "id": 4,
+        "newsImg": "src/assets/images/newsImg/news4.jpg",
+        "newsHeader": "n.SSign (엔싸인), 미니 2집 'Happy &'로 한터차트 실버 인증패 수상! (한터차트 공식)",
+        "newsDescription": "보이그룹 n.SSign (엔싸인)이 한터차트 실버 인증패를 수상했다.",
+        "url": "https://www.hanteonews.com/ko/article/issue?fc=61652"
+    },
+    {
+        "id": 5,
+        "newsImg": "src/assets/images/newsImg/news5.png",
+        "newsHeader": "사흘 앞으로 다가온 '31주년 한터뮤직어워즈 20231'...깜짝 합류 스타 나올까?",
+        "newsDescription": "'31주년 한터뮤직어워즈 2023'이 사흘 앞으로 다가오면서 본상 수상자가 누가 될 것인지에 관심이 높아지고 있다.",
+        "url": "https://www.hanteonews.com/ko/article/issue?fc=60850"
+    },
+    {
+        "id": 6,
+        "newsImg": "src/assets/images/newsImg/news6.png",
+        "newsHeader": "'한터뮤직어워즈 2023' 3차 라인업 발표...YB.케플러.빌리 등 합류",
+        "newsDescription": "'31주년 한터무직어워즈 2023'이 3차 라인업을 발표했다. 주최사 한터글로벌(대표 곽영호)은 YB, 케플러, 빌리",
+        "url": "https://www.hanteonews.com/ko/article/issue?fc=60712"
+    },
+    {
+        "id": 7,
+        "newsImg": "src/assets/images/newsImg/news7.png",
+        "newsHeader": "n.SSign (엔싸인), 미니 2집 'Happy &'로 한터차트 실버 인증패 수상! (한터차트 공식)",
+        "newsDescription": "보이그룹 n.SSign (엔싸인)이 한터차트 실버 인증패를 수상했다.",
+        "url": "https://www.hanteonews.com/ko/article/issue?fc=61652"
+    },
+    {
+        "id": 8,
+        "newsImg": "src/assets/images/newsImg/news8.png",
+        "newsHeader": "사흘 앞으로 다가온 '31주년 한터뮤직어워즈 20231'...깜짝 합류 스타 나올까?",
+        "newsDescription": "'31주년 한터뮤직어워즈 2023'이 사흘 앞으로 다가오면서 본상 수상자가 누가 될 것인지에 관심이 높아지고 있다.",
+        "url": "https://www.hanteonews.com/ko/article/issue?fc=60850"
+    },
+    {
+        "id": 9,
+        "newsImg": "src/assets/images/newsImg/news1.jpg",
+        "newsHeader": "n.SSign (엔싸인), 미니 2집 'Happy &'로 한터차트 실버 인증패 수상! (한터차트 공식)",
+        "newsDescription": "보이그룹 n.SSign (엔싸인)이 한터차트 실버 인증패를 수상했다.",
+        "url": "https://www.hanteonews.com/ko/article/issue?fc=61652"
+    },
+    {
+        "id": 10,
+        "newsImg": "src/assets/images/newsImg/news2.png",
+        "newsHeader": "사흘 앞으로 다가온 '31주년 한터뮤직어워즈 20231'...깜짝 합류 스타 나올까?",
+        "newsDescription": "'31주년 한터뮤직어워즈 2023'이 사흘 앞으로 다가오면서 본상 수상자가 누가 될 것인지에 관심이 높아지고 있다.",
+        "url": "https://www.hanteonews.com/ko/article/issue?fc=60850"
+    },
+    {
+        "id": 11,
+        "newsImg": "src/assets/images/newsImg/news3.png",
+        "newsHeader": "'한터뮤직어워즈 2023' 3차 라인업 발표...YB.케플러.빌리 등 합류",
+        "newsDescription": "'31주년 한터무직어워즈 2023'이 3차 라인업을 발표했다. 주최사 한터글로벌(대표 곽영호)은 YB, 케플러, 빌리",
+        "url": "https://www.hanteonews.com/ko/article/issue?fc=60712"
+    },
+    {
+        "id": 12,
+        "newsImg": "src/assets/images/newsImg/news4.jpg",
+        "newsHeader": "n.SSign (엔싸인), 미니 2집 'Happy &'로 한터차트 실버 인증패 수상! (한터차트 공식)",
+        "newsDescription": "보이그룹 n.SSign (엔싸인)이 한터차트 실버 인증패를 수상했다.",
+        "url": "https://www.hanteonews.com/ko/article/issue?fc=61652"
+    },
+    {
+        "id": 13,
+        "newsImg": "src/assets/images/newsImg/news5.png",
+        "newsHeader": "사흘 앞으로 다가온 '31주년 한터뮤직어워즈 20231'...깜짝 합류 스타 나올까?",
+        "newsDescription": "'31주년 한터뮤직어워즈 2023'이 사흘 앞으로 다가오면서 본상 수상자가 누가 될 것인지에 관심이 높아지고 있다.",
+        "url": "https://www.hanteonews.com/ko/article/issue?fc=60850"
+    },
+    {
+        "id": 14,
+        "newsImg": "src/assets/images/newsImg/news6.png",
+        "newsHeader": "'한터뮤직어워즈 2023' 3차 라인업 발표...YB.케플러.빌리 등 합류",
+        "newsDescription": "'31주년 한터무직어워즈 2023'이 3차 라인업을 발표했다. 주최사 한터글로벌(대표 곽영호)은 YB, 케플러, 빌리",
+        "url": "https://www.hanteonews.com/ko/article/issue?fc=60712"
+    },
+    {
+        "id": 15,
+        "newsImg": "src/assets/images/newsImg/news7.png",
+        "newsHeader": "n.SSign (엔싸인), 미니 2집 'Happy &'로 한터차트 실버 인증패 수상! (한터차트 공식)",
+        "newsDescription": "보이그룹 n.SSign (엔싸인)이 한터차트 실버 인증패를 수상했다.",
+        "url": "https://www.hanteonews.com/ko/article/issue?fc=61652"
+    },
+    {
+        "id": 16,
+        "newsImg": "src/assets/images/newsImg/news8.png",
+        "newsHeader": "사흘 앞으로 다가온 '31주년 한터뮤직어워즈 20231'...깜짝 합류 스타 나올까?",
+        "newsDescription": "'31주년 한터뮤직어워즈 2023'이 사흘 앞으로 다가오면서 본상 수상자가 누가 될 것인지에 관심이 높아지고 있다.",
+        "url": "https://www.hanteonews.com/ko/article/issue?fc=60850"
+    },
+    {
+        "id": 17,
+        "newsImg": "src/assets/images/newsImg/news1.jpg",
+        "newsHeader": "n.SSign (엔싸인), 미니 2집 'Happy &'로 한터차트 실버 인증패 수상! (한터차트 공식)",
+        "newsDescription": "보이그룹 n.SSign (엔싸인)이 한터차트 실버 인증패를 수상했다.",
+        "url": "https://www.hanteonews.com/ko/article/issue?fc=61652"
+    },
+    {
+        "id": 18,
+        "newsImg": "src/assets/images/newsImg/news2.png",
+        "newsHeader": "사흘 앞으로 다가온 '31주년 한터뮤직어워즈 20231'...깜짝 합류 스타 나올까?",
+        "newsDescription": "'31주년 한터뮤직어워즈 2023'이 사흘 앞으로 다가오면서 본상 수상자가 누가 될 것인지에 관심이 높아지고 있다.",
+        "url": "https://www.hanteonews.com/ko/article/issue?fc=60850"
+    },
+    {
+        "id": 19,
+        "newsImg": "src/assets/images/newsImg/news3.png",
+        "newsHeader": "'한터뮤직어워즈 2023' 3차 라인업 발표...YB.케플러.빌리 등 합류",
+        "newsDescription": "'31주년 한터무직어워즈 2023'이 3차 라인업을 발표했다. 주최사 한터글로벌(대표 곽영호)은 YB, 케플러, 빌리",
+        "url": "https://www.hanteonews.com/ko/article/issue?fc=60712"
+    },
+    {
+        "id": 20,
+        "newsImg": "src/assets/images/newsImg/news4.jpg",
+        "newsHeader": "n.SSign (엔싸인), 미니 2집 'Happy &'로 한터차트 실버 인증패 수상! (한터차트 공식)",
+        "newsDescription": "보이그룹 n.SSign (엔싸인)이 한터차트 실버 인증패를 수상했다.",
+        "url": "https://www.hanteonews.com/ko/article/issue?fc=61652"
+    },
+    {
+        "id": 21,
+        "newsImg": "src/assets/images/newsImg/news5.png",
+        "newsHeader": "사흘 앞으로 다가온 '31주년 한터뮤직어워즈 20231'...깜짝 합류 스타 나올까?",
+        "newsDescription": "'31주년 한터뮤직어워즈 2023'이 사흘 앞으로 다가오면서 본상 수상자가 누가 될 것인지에 관심이 높아지고 있다.",
+        "url": "https://www.hanteonews.com/ko/article/issue?fc=60850"
+    },
+    {
+        "id": 22,
+        "newsImg": "src/assets/images/newsImg/news6.png",
+        "newsHeader": "'한터뮤직어워즈 2023' 3차 라인업 발표...YB.케플러.빌리 등 합류",
+        "newsDescription": "'31주년 한터무직어워즈 2023'이 3차 라인업을 발표했다. 주최사 한터글로벌(대표 곽영호)은 YB, 케플러, 빌리",
+        "url": "https://www.hanteonews.com/ko/article/issue?fc=60712"
+    },
+    {
+        "id": 23,
+        "newsImg": "src/assets/images/newsImg/news7.png",
+        "newsHeader": "n.SSign (엔싸인), 미니 2집 'Happy &'로 한터차트 실버 인증패 수상! (한터차트 공식)",
+        "newsDescription": "보이그룹 n.SSign (엔싸인)이 한터차트 실버 인증패를 수상했다.",
+        "url": "https://www.hanteonews.com/ko/article/issue?fc=61652"
+    },
+    {
+        "id": 24,
+        "newsImg": "src/assets/images/newsImg/news8.png",
+        "newsHeader": "사흘 앞으로 다가온 '31주년 한터뮤직어워즈 20231'...깜짝 합류 스타 나올까?",
+        "newsDescription": "'31주년 한터뮤직어워즈 2023'이 사흘 앞으로 다가오면서 본상 수상자가 누가 될 것인지에 관심이 높아지고 있다.",
+        "url": "https://www.hanteonews.com/ko/article/issue?fc=60850"
+    }
+]

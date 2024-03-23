@@ -1,6 +1,5 @@
 import styled, { keyframes } from "styled-components";
 import Box from "../ui/Box";
-import "../section/Card.css";
 
 // 스켈레톤 애니메이션 정의
 const move = keyframes`
