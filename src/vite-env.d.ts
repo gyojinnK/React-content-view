@@ -46,3 +46,11 @@ type NewsInfo = {
     newsDescription: string;
     url: string;
 };
+
+type NewsInfo = {
+    id: number;
+    hookImg: string;
+    hookTitle: string;
+    hookCurrentChating: string;
+    userCnt: string;
+};

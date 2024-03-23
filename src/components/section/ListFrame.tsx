@@ -17,11 +17,23 @@ const ListFrame: React.FC<ListFrameProps> = ({ mockData, categoryTitle }) => {
         setIsLoading(true);
         return mockData.slice(start, end).map((data) => ({
             id: data.id,
-            image: data.artistImg || data.newsImg,
-            title: data.artist || data.newsHeader,
-            description: data.agency || data.newsDescription,
+            image:
+                data.artistImg ||
+                data.newsImg ||
+                data.hookImg ||
+                data.imagePath,
+            title:
+                data.artist || data.newsHeader || data.hookTitle || data.title,
+            description:
+                data.agency ||
+                data.newsDescription ||
+                data.hookCurrentChating ||
+                data.description,
             views: data.views,
             url: data.url,
+            userCnt: data.userCnt,
+            externalURL: data.externalURL,
+            period: data.period,
         }));
     };
 
@@ -72,6 +84,9 @@ const ListFrame: React.FC<ListFrameProps> = ({ mockData, categoryTitle }) => {
                                       description={info.description}
                                       views={info.views}
                                       url={info.url}
+                                      userCnt={info.userCnt}
+                                      externalURL={info.externalURL}
+                                      period={info.period}
                                       categoryTitle={categoryTitle}
                                   />
                               ))}

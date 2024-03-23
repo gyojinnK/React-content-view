@@ -1,6 +1,8 @@
 import Box from "../ui/Box";
+import userIcon from "../../assets/images/icons/user.svg";
 import ChartSt from "./styles/Chart.module.css";
 import NewsSt from "./styles/News.module.css";
+import WhookSt from "./styles/Whook.module.css";
 
 const Card: React.FC<CardInfo> = ({
     id,
@@ -9,6 +11,7 @@ const Card: React.FC<CardInfo> = ({
     description,
     views,
     url,
+    userCnt,
     categoryTitle,
 }) => {
     const toExternalUrlHandler = () => {
@@ -26,6 +29,10 @@ const Card: React.FC<CardInfo> = ({
             css = NewsSt;
             boxStyle = { height: "120px" };
             break;
+        case "WHOOK":
+            css = WhookSt;
+            boxStyle = { height: "64px" };
+            break;
         default:
             css = ChartSt;
             boxStyle = { height: "64px" };
@@ -36,7 +43,7 @@ const Card: React.FC<CardInfo> = ({
             className={css.cardWrap}
             width="90%"
             margin="10px auto"
-            {...boxStyle}
+            {...(boxStyle || { height: "64px" })}
         >
             <div className={css.imgWrap}>
                 {categoryTitle === "NEWS" ? (
@@ -59,7 +66,16 @@ const Card: React.FC<CardInfo> = ({
                     <p>{description}</p>
                 </div>
             </div>
-            <p className={css.views}>{views}</p>
+            <p className={css.views}>
+                {categoryTitle === "WHOOK" ? (
+                    <>
+                        <img src={userIcon} alt="User Icon" />
+                        {userCnt}
+                    </>
+                ) : (
+                    views
+                )}
+            </p>
         </Box>
     );
 };
