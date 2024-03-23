@@ -1,0 +1,94 @@
+.chargeCard {
+    position: relative;
+}
+
+.chargeCardWrap {
+    margin: 20px;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.chargeCardTitle {
+    display: flex;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.chargeCardTitle > img {
+    width: 30px;
+    height: 30px;
+}
+
+.chargeCardTitle > h2 {
+    font-family: var(--font-nanum-bold);
+    margin: 0 0 0 5px;
+}
+
+.chargeCardDescriptionWrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.chargeCardDescription {
+    font-size: 0.7rem;
+    color: #919191;
+    text-align: right;
+}
+
+.chargeCardAmountWrap {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.chargeCardAmountWrap > div {
+    border-radius: 50%;
+    background-color: rgb(251, 251, 0);
+    box-shadow: inset rgba(0, 0, 0, 0.4) 0 -3px 5px 3px;
+    margin: 0 5px;
+}
+
+.chargeCardAmountWrap > div > div {
+    padding: 8px;
+    color: rgb(30, 30, 30);
+    font-family: var(--font-nanum-extrabold);
+    font-size: 0.75rem;
+}
+
+.chargeCardAmountWrap > p {
+    font-family: var(--font-nanum-bold);
+    font-size: 2.25rem;
+}
+
+.chargeCardBtn {
+    position: absolute;
+    top: 24px;
+    right: 20px;
+}
+
+.refreshBtn {
+    position: absolute;
+    bottom: 24px;
+    left: 20px;
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.refreshBtn:hover {
+    background-color: #919191;
+}
+
+.refreshBtn > img {
+    width: 18px;
+    height: 18px;
+}
