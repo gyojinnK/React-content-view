@@ -1,0 +1,46 @@
+.footerWrap {
+    height: 100%;
+    width: 425px;
+    position: fixed;
+    max-height: 50px;
+}
+
+.footerLine {
+    height: 1px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #dedede;
+    border-radius: 50px;
+}
+
+.footerContent {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+
+.footerHTChart,
+.footerHTNews,
+.footerWhosfan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.75rem;
+    cursor: pointer;
+}
+
+.footerHTChart > img,
+.footerHTNews > img,
+.footerWhosfan > img {
+    width: 20px;
+    height: 20px;
+    transition: 0.25s;
+}
+
+.footerHTChart > img:hover,
+.footerHTNews > img:hover,
+.footerWhosfan > img:hover {
+    width: 30px;
+    height: 30px;
+}
