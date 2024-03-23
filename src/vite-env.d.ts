@@ -8,6 +8,7 @@ type BannerInfo = {
     externalURL: string;
     period: string;
     category: string;
+    marginOption?: string;
 };
 
 type CategoryInfo = {
@@ -47,7 +48,7 @@ type NewsInfo = {
     url: string;
 };
 
-type NewsInfo = {
+type WhookInfo = {
     id: number;
     hookImg: string;
     hookTitle: string;
