@@ -29,13 +29,15 @@ const ListFrame: React.FC<ListFrameProps> = ({ mockData, categoryTitle }) => {
                 data.newsHeader ||
                 data.hookTitle ||
                 data.title ||
-                data.itemTitle,
+                data.itemTitle ||
+                data.usageTitle,
             description:
                 data.agency ||
                 data.newsDescription ||
                 data.hookCurrentChating ||
                 data.description ||
-                data.itemDescription,
+                data.itemDescription ||
+                data.usageDescription,
             views: data.views,
             url: data.url || data.storeUrl,
             userCnt: data.userCnt,
@@ -43,6 +45,7 @@ const ListFrame: React.FC<ListFrameProps> = ({ mockData, categoryTitle }) => {
             period: data.period,
             itemCost: data.itemCost,
             category: data.category,
+            usageDate: data.usageDate,
         }));
     };
 
@@ -78,8 +81,10 @@ const ListFrame: React.FC<ListFrameProps> = ({ mockData, categoryTitle }) => {
 
     return (
         <>
-            <h2 className="contentTitle">{categoryTitle}</h2>
-            <div className="line"></div>
+            <h2 className="contentTitle">
+                {categoryTitle === "USAGE" ? null : categoryTitle}
+            </h2>
+            {categoryTitle === "USAGE" ? null : <div className="line"></div>}
             <div className="contentWrap" ref={topTocontentView}>
                 {isLoading && categoryTitle != "EVENT"
                     ? data?.pages.map((pageData, index: number) => (
@@ -98,6 +103,7 @@ const ListFrame: React.FC<ListFrameProps> = ({ mockData, categoryTitle }) => {
                                       period={info.period}
                                       cost={info.itemCost}
                                       categoryTitle={categoryTitle}
+                                      usageDate={info.usageDate}
                                   />
                               ))}
                           </React.Fragment>

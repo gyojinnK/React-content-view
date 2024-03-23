@@ -7,6 +7,7 @@ type BoxProps = {
     height?: string;
     flexdirection?: string;
     bgcolor?: string;
+    overflow?: string;
 };
 
 const Box = styled.div<BoxProps>`
@@ -19,7 +20,7 @@ const Box = styled.div<BoxProps>`
     display: flex;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.2) 0 1px 5px 0.1px;
-    overflow: hidden;
+    overflow: ${({ overflow }) => overflow || "hidden"};
 `;
 
 export default Box;

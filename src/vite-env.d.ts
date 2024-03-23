@@ -64,3 +64,10 @@ type ItemInfo = {
     itemCost: string;
     storeUrl: string;
 };
+
+type UsageInfo = {
+    id: number;
+    usageTitle: string;
+    usageDescription: string;
+    usageDate: string;
+};
