@@ -1,5 +1,7 @@
+import ChargeWrap from "../components/section/charge/ChargeWrap";
+
 const ChartPage = () => {
-    return <div></div>;
+    return <ChargeWrap />;
 };
 
 export default ChartPage;
