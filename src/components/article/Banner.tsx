@@ -9,13 +9,19 @@ const Banner: React.FC<BannerInfo> = ({
     title,
     externalURL,
     category,
+    marginOption,
 }) => {
     const requestExternalUrlHandler = () => {
         window.open(externalURL);
     };
 
     return (
-        <Box width="380px" height="190px" margin="0 5px" flexDirection="column">
+        <Box
+            width="380px"
+            height="190px"
+            margin={marginOption}
+            flexDirection="column"
+        >
             <div
                 className="bannerImage"
                 style={{

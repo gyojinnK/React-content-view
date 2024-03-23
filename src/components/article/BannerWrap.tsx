@@ -40,6 +40,7 @@ const BannerWrap = () => {
                         externalURL={banner.externalURL}
                         category={banner.category}
                         period={banner.period}
+                        marginOption="0 5px"
                     />
                 ))}
             </div>

@@ -66,7 +66,7 @@ const Card: React.FC<CardInfo> = ({
                     <p>{description}</p>
                 </div>
             </div>
-            <p className={css.views}>
+            <div className={css.views}>
                 {categoryTitle === "WHOOK" ? (
                     <>
                         <img src={userIcon} alt="User Icon" />
@@ -75,7 +75,7 @@ const Card: React.FC<CardInfo> = ({
                 ) : (
                     views
                 )}
-            </p>
+            </div>
         </Box>
     );
 };
