@@ -23,10 +23,12 @@ type ListFrameProps = {
 
 type CardInfo = {
     id: number;
-    contentImg: string;
-    contentTitle: string;
-    contentDescription: string;
-    views: number;
+    image: string; // 일반화된 이미지 필드
+    title: string; // 일반화된 타이틀 필드
+    description: string; // 일반화된 설명 필드
+    views?: number; // 선택적 필드
+    url?: string;
+    [key: string]: any; // 추가적인 필드를 위한 인덱스 시그니처
 };
 
 type ArtistInfo = {
@@ -35,4 +37,12 @@ type ArtistInfo = {
     artist: string;
     agency: string;
     views: number;
+};
+
+type NewsInfo = {
+    id: number;
+    newsImg: string;
+    newsHeader: string;
+    newsDescription: string;
+    url: string;
 };
