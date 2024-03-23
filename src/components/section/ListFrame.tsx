@@ -4,6 +4,7 @@ import "./ListFrame.css";
 import { useInView } from "react-intersection-observer";
 import React, { useEffect, useRef, useState } from "react";
 import CardSkeleton from "../ui/Skeleton";
+import Banner from "../article/Banner";
 
 const ListFrame: React.FC<ListFrameProps> = ({ mockData, categoryTitle }) => {
     const listCount = 8;
@@ -34,6 +35,7 @@ const ListFrame: React.FC<ListFrameProps> = ({ mockData, categoryTitle }) => {
             userCnt: data.userCnt,
             externalURL: data.externalURL,
             period: data.period,
+            category: data.category,
         }));
     };
 
@@ -72,7 +74,7 @@ const ListFrame: React.FC<ListFrameProps> = ({ mockData, categoryTitle }) => {
             <h2 className="contentTitle">{categoryTitle}</h2>
             <div className="line"></div>
             <div className="contentWrap" ref={topTocontentView}>
-                {isLoading
+                {isLoading && categoryTitle != "EVENT"
                     ? data?.pages.map((pageData, index: number) => (
                           <React.Fragment key={index}>
                               {pageData.map((info: CardInfo) => (
@@ -88,6 +90,23 @@ const ListFrame: React.FC<ListFrameProps> = ({ mockData, categoryTitle }) => {
                                       externalURL={info.externalURL}
                                       period={info.period}
                                       categoryTitle={categoryTitle}
+                                  />
+                              ))}
+                          </React.Fragment>
+                      ))
+                    : categoryTitle === "EVENT"
+                    ? data?.pages.map((pageData, index: number) => (
+                          <React.Fragment key={index}>
+                              {pageData.map((info: CardInfo) => (
+                                  <Banner
+                                      id={info.id}
+                                      imagePath={info.image}
+                                      description={info.description}
+                                      period={info.period}
+                                      title={info.title}
+                                      externalURL={info.externalURL}
+                                      category={info.caterogy}
+                                      marginOption="10px auto"
                                   />
                               ))}
                           </React.Fragment>
