@@ -1,10 +1,11 @@
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 import categorys from "../../db/cotegoryInfo.json";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
+import { useCategory } from "../../stores/CategoryContext";
 
 const Navbar = () => {
-    const [currentCategory, setCurrentCategory] = useState<number>(0);
+    const { currentCategory, setCurrentCategory } = useCategory();
     const slideRef = useRef<HTMLDivElement>(null);
 
     useEffect(() => {
