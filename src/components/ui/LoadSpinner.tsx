@@ -10,12 +10,15 @@ const spin = keyframes`
 `;
 
 const Spinner = styled.div`
-    border: 4px solid rgba(0, 0, 0, 0.1); // 바깥 원 테두리 색상과 두께
-    border-top: 4px solid blue; // 상단 원 테두리 색상과 두께
-    border-radius: 50%; // 원형 모양
-    width: 50px; // 크기
-    height: 50px; // 크기
-    animation: ${spin} 2s linear infinite; // 애니메이션 적용
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-top: 4px solid black;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: ${spin} 2s linear infinite;
+    top: calc(50% - 25px);
+    left: calc(50% - 25px);
+    position: absolute;
 `;
 
 const LoadSpinner = () => {
