@@ -2,6 +2,7 @@
 
 # React로 구현하는 콘텐츠 뷰
 `차트` `Whook` `이벤트` `뉴스` `스토어` `충전소` View 제공
+> 모든 데이터/이미지는 Mock 데이터를 사용합니다.
 
 ## 개요
 ![한터-코딩테스트-결과물](https://github.com/gyojinnK/hanteo-content-view/assets/97776614/63b8e1dd-b323-424f-ad26-3e161bdc22d3)
