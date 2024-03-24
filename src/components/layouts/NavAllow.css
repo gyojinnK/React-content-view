@@ -1,0 +1,24 @@
+.lAllow,
+.rAllow {
+    font-size: 0.75rem;
+    font-family: var(--font-nanum-bold);
+    position: absolute;
+    top: 50%;
+    color: #919191;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.lAllow {
+    left: 6px;
+}
+
+.rAllow {
+    right: 6px;
+}
+
+.lAllow:hover,
+.rAllow:hover {
+    color: black;
+    font-size: 1rem;
+}
