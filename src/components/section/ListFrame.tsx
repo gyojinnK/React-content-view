@@ -7,14 +7,15 @@ import CardSkeleton from "../ui/Skeleton";
 import Banner from "../article/Banner";
 
 const ListFrame: React.FC<ListFrameProps> = ({ mockData, categoryTitle }) => {
-    const listCount = 8;
+    const listCount = 6;
     const [isLoading, setIsLoading] = useState<boolean>(false);
     const topTocontentView = useRef<HTMLDivElement | null>(null);
     const fetchDatas = async ({ pageParam = 0 }) => {
         const perPage = listCount;
         const start = pageParam * perPage;
         const end = start + perPage;
-        await new Promise((resolve) => setTimeout(resolve, 1500));
+        // 스켈레톤 활용을 위해 임의의 지연시간 설정
+        await new Promise((resolve) => setTimeout(resolve, 1000));
         setIsLoading(true);
         return mockData.slice(start, end).map((data) => ({
             id: data.id,
@@ -50,9 +51,9 @@ const ListFrame: React.FC<ListFrameProps> = ({ mockData, categoryTitle }) => {
     };
 
     const { data, fetchNextPage, hasNextPage, isFetchingNextPage } =
-        useInfiniteQuery("artists", fetchDatas, {
+        useInfiniteQuery(["datas", categoryTitle], fetchDatas, {
             getNextPageParam: (_, pages) => {
-                if (pages.length * 8 < mockData.length) {
+                if (pages.length * 6 < mockData.length) {
                     return pages.length;
                 } else {
                     return undefined;
