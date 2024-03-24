@@ -75,6 +75,20 @@ const Card: React.FC<CardInfo> = ({
             </div>
             <div className={css.contentDescription}>
                 {categoryTitle === "ARTIST" ? <p>{id}</p> : null}
+                {categoryTitle === "NEWS" ? (
+                    <div
+                        className={`${css.contentDomain} ${css.newCursor}`}
+                        onClick={toExternalUrlHandler}
+                    >
+                        <p>{title}</p>
+                        <p>{description}</p>
+                    </div>
+                ) : (
+                    <div className={css.contentDomain}>
+                        <p>{title}</p>
+                        <p>{description}</p>
+                    </div>
+                )}
                 <div className={css.contentDomain}>
                     {categoryTitle === "NEWS" ? (
                         <p onClick={toExternalUrlHandler}>{title}</p>
